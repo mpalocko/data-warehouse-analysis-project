@@ -1,22 +1,22 @@
 /*
-1)	Database Exploration – This helps give us an overview of the database and see how many 
+1) Database Exploration – This helps give us an overview of the database and see how many 
 tables there are, what the names of columns/tables are. This helps provide the foundation 
 of exploring the data.
 ========================================================================================
-2)  Dimensions Exploration – Identifying the unique values (or categories) in each 
+2) Dimensions Exploration – Identifying the unique values (or categories) in each 
 dimension. Recognizing how data might be grouped or segmented, which is useful for 
 later analysis. 
 ========================================================================================
-3)	Date Exploration – Identify the earliest and latest dates (boundaries).
+3) Date Exploration – Identify the earliest and latest dates (boundaries).
 Understand the scope of data and the timespan. 
 ========================================================================================
-4)	Measures Exploration – Calculate the key metric of the business (Big Numbers). 
+4) Measures Exploration – Calculate the key metric of the business (Big Numbers). 
 The highest level of aggregation. Will use aggregate functions like the SUM, AVG, COUNT.
 ========================================================================================
-5)	Magnitude – Compare the measure values by categories. It helps us understand 
+5) Magnitude – Compare the measure values by categories. It helps us understand 
 the importance of different categories. 
 ========================================================================================
-6)	Ranking Analysis: Order the values of dimensions by measure. 
+6) Ranking Analysis: Order the values of dimensions by measure. 
 Top N performers | Bottom N performers. 
 */
 
