@@ -1,4 +1,5 @@
-/* Database Exploration – This helps give us an overview of the database and see how many 
+/* 
+Database Exploration – This helps give us an overview of the database and see how many 
 tables there are, what the names of columns/tables are. This helps provide the foundation 
 of exploring the data.
 */
