@@ -3,6 +3,7 @@ Database Exploration – This helps give us an overview of the database and see 
 tables there are, what the names of columns/tables are. This helps provide the foundation 
 of exploring the data.
 */
+
 -- Explore all objects in the database
 SELECT * FROM INFORMATION_SCHEMA.TABLES
 
