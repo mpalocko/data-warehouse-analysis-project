@@ -1,4 +1,7 @@
--- 1) Change-Over-Time Trends
+/*
+- Change-Over-Time Trends: Analyze how a measure evolves over time. Helps track trends and identify seasonality in your data. 
+- Tasks: Showcase the different ways of identifying changes over time using differnt date functions. 
+*/
 SELECT 
 	YEAR(order_date) AS order_year,             -- Data type will be INT
 	MONTH(order_date) AS order_month,
