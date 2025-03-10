@@ -66,27 +66,44 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ## 📂 Repository Structure
 ```
-data-warehouse-project/
+data-warehouse-analysis-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── data_analysis_advanced/             #  
+│   ├──  01_change_over_time_analysis   # Analyze how a measure evolves over time.
+│   ├──  02_cumulative_analysis         # Aggregate the data progressively over time. 
+│   ├──  03_performance_analysis        # Comparing the current value to a target value. 
+│   ├──  04_proportional_analysis       # Analyze how an individual part is performing compared to overall.
+│   ├──  05_data_segmentation           # Group the data based on a specific range.
+│   ├──  06_report_customers            # This report consolidates key customer metrics and behaviors.
+│   ├──  07_report_products             # This report consolidates key product metrics and behaviors.
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+├── data_analysis_exploratory/          #  
+│   ├──  01_database_exploration        # Give an overview of the database: number of tables, table names, column names, etc.
+│   ├──  02_dimensions_exploration      # Identifying the unique values (or categories) in each dimension. 
+│   ├──  03_date_exploration            # Understand the scope of data and the timespan.  
+│   ├──  04_measures_exploration        # Calculate the key metric of the business (Big Numbers). The highest level of aggregation.
+│   ├──  05_magnitude_analysis          # Compare the measure values by categories. Shows the importance of different categories. 
+│   ├──  06_ranking_analysis            # Order the values of dimensions by measure. Top N performers | Bottom N performers.
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+├── data_warehouse_docs/                # Project documentation and architecture details.
+│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL.
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture.
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata.
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram.
+│   ├── data_models.drawio              # Draw.io file for data models (star schema).
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files.
 │
-├── tests/                              # Test scripts and quality files
+├── data_warehouse_scripts/             # SQL scripts for ETL and transformations.
+│   ├── bronze                          # Scripts for extracting and loading raw data.
+│   ├── silver                          # Scripts for cleaning and transforming data.
+│   ├── gold                            # Scripts for creating analytical models.
 │
-├── README.md                           # Project overview and instructions
-└── LICENSE                             # License information for the repository
+├── data_warehouse_tests/               # Test scripts and quality files.
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data).
+│                        
+├── README.md/                          # Project overview and instructions.
+└── LICENSE/                            # License information for the repository.
 ```
 ---
 
