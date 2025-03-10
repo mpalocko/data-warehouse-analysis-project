@@ -68,7 +68,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ```
 data-warehouse-analysis-project/
 │
-├── data_analysis_advanced/             #  
+├── data_analysis_advanced/             # Advanced data analysis on ERP & CRM datasets. Answers business questions.
 │   ├──  01_change_over_time_analysis   # Analyze how a measure evolves over time.
 │   ├──  02_cumulative_analysis         # Aggregate the data progressively over time. 
 │   ├──  03_performance_analysis        # Comparing the current value to a target value. 
@@ -77,7 +77,7 @@ data-warehouse-analysis-project/
 │   ├──  06_report_customers            # This report consolidates key customer metrics and behaviors.
 │   ├──  07_report_products             # This report consolidates key product metrics and behaviors.
 │
-├── data_analysis_exploratory/          #  
+├── data_analysis_exploratory/          # Exploratory data analysis on ERP & CRM datasets. Helps to understand the data. 
 │   ├──  01_database_exploration        # Give an overview of the database: number of tables, table names, column names, etc.
 │   ├──  02_dimensions_exploration      # Identifying the unique values (or categories) in each dimension. 
 │   ├──  03_date_exploration            # Understand the scope of data and the timespan.  
