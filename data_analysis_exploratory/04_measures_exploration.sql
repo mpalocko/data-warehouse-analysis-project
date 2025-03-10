@@ -1,6 +1,6 @@
 /*
 Measures Exploration – Calculate the key metric of the business (Big Numbers). 
-The highest level of aggregation. Will use aggregate functions like the SUM, AVG, COUNT.]
+The highest level of aggregation. Will use aggregate functions like the SUM, AVG, COUNT.
 */
 
 -- Find the total sales
