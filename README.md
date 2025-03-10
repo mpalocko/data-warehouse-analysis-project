@@ -86,11 +86,12 @@ data-warehouse-analysis-project/
 │   ├──  06_ranking_analysis            # Order the values of dimensions by measure. Top N performers | Bottom N performers.
 │
 ├── data_warehouse_docs/                # Project documentation and architecture details.
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL.
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture.
+│   ├── etl.png                         # Shows all different techniques and methods of ETL.
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata.
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram.
-│   ├── data_models.drawio              # Draw.io file for data models (star schema).
+|   ├── data_flow.drawio                # Draw.io file for the data flow diagram. Also pdf file. 
+|   ├── data_integration.drawio         # Shows how the tables are related. Also pdf file. 
+│   ├── data_model.drawio               # Draw.io file for data models (star schema). Also pdf file. 
+|   ├── data_architecture.drawio        # Draw.io file shows the project's architecture. Also pdf file. 
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files.
 │
 ├── data_warehouse_scripts/             # SQL scripts for ETL and transformations.
